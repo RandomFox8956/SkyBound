@@ -1702,7 +1702,8 @@ footer button:hover {
 .control-hint {
   position: absolute;
   left: 50%;
-  top: 18px;
+  /* Under the title column, clear of the airport name and the radio panel. */
+  top: 64px;
   transform: translateX(-50%);
   white-space: nowrap;
   padding: 6px 12px;
